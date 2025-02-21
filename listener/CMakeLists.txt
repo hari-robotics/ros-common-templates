@@ -7,6 +7,7 @@ find_package(catkin REQUIRED)
 find_package(catkin REQUIRED COMPONENTS 
     roscpp
     std_msgs
+    sample_msgs
 )
 
 include_directories(

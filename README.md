@@ -7,7 +7,9 @@ This project intends to provide some basic templates for ROS beginners, all the 
 * `listener`: contains a simple subscriber written in c++
 
 ## Pre-requirements
-For `bringup`, `talker`, and `listener` package, you do not need anything aside from ROS.
+~~For `bringup`, `talker`, and `listener` package, you do not need anything aside from ROS.~~
+
+Now `sample_msgs` is required by `talker` and `listener`.
 
 ## How to install
 ```bash
@@ -19,7 +21,7 @@ git clone git@github.com:hari-robotics/ros-common-templates.git
 Then go back to the primary folder, and you can compile this project.
 
 ## TODOs
-- [ ] ROS msgs
+- [x] ROS msgs
 - [ ] Service
 - [ ] ROS param
 - [ ] timers
